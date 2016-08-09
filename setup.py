@@ -4,16 +4,16 @@ except ImportError:
     from distutils.core import setup
     
 config = {
-    'description': 'My Project',
+    'description': 'space_shooter_game',
     'author': 'Adam M Deeley',
-    'url': 'URL to get it at',
-    'download_url': 'Where to download it',
+    'url': 'https://github.com/ADeeley/pygames',
+    'download_url': 'https://github.com/ADeeley/pygames',
     'author_email': 'ad.deeley@gmail.com',
     'version': '0.1',
     'install_requires': ['nose'],
-    'packages': ['NAME'],
+    'packages': ['pygame'],
     'scripts': [],
-    'name': 'projectname'
+    'name': 'space_shooter_game'
 }
 
 setup(**config)
